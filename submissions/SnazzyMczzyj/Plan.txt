@@ -1,0 +1,34 @@
+The project consists of a script that reads data from a CSV file (spotify-2023.csv) 
+and performs the following tasks.
+
+√ 1) Load Spotify data from the CSV file.
+√ 2) Create a folder for your project with your github handler.
+
+3) Complete at all of the challenges below.
+    √ a)Write a script to identify the number of songs in the file.
+    √ b)Write a script that identify the number of songs in the key of E.
+    √ c)Count the occurrences of values in a specified column (e.g., artist names)
+      and determine the most common value.
+
+4) Add your folder with your project to the submissions folder of this repo.
+5) Include the script that runs your file.
+
+Challenges
+
+√ a) Write a script to identify the number of songs in the file.
+  1 - open and read the csv file.
+  2 - figure out what the file looks like for parsing.
+  3 - write a for loop to count the number of songs.
+
+√ b) Write a script that identify the number of songs in the key of E.
+  1 - parse through the lists to find the key.
+        - in this file the key is index [15]
+  2 - use a for loop to count the number in E.
+
+√ c) Count the occurrences of values in a specified column (e.g., artist names)
+    and determine the most common value.
+  1 - parse through the list to find the artist name. index [1]
+  2 - add all artist names to a list.
+  3 - sort the list alphabetically.
+  4 - put all same artists in sublists
+  5 - find length of largest sublist
